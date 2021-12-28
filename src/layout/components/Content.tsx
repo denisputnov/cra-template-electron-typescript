@@ -1,5 +1,5 @@
 import { ContentWrapper } from "../src/styled";
-import { ContentProps } from "../src/types";
+import { ContentProps } from "../types";
 
 export function Content({ children, ...props }: ContentProps) {
   return (

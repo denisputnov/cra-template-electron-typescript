@@ -1,5 +1,5 @@
 import { FooterWrapper } from "../src/styled";
-import { FooterProps } from "../src/types";
+import { FooterProps } from "../types";
 
 export function Footer({ children, ...props }: FooterProps) {
   return (

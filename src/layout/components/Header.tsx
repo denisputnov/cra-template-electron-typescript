@@ -1,5 +1,5 @@
 import { HeaderWrapper } from "../src/styled";
-import { HeaderProps } from "../src/types";
+import { HeaderProps } from "../types";
 
 export function Header({ children, ...props }: HeaderProps) {
   return (

@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { ContentProps, FooterProps, HeaderProps } from "./types"
+import { ContentProps, FooterProps, HeaderProps } from "../types"
 
 const Root = styled.div`
   display: flex;

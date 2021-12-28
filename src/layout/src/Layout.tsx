@@ -1,6 +1,6 @@
 import React from 'react'
 import { HeaderWrapper, Root } from './styled'
-import { LayoutProps } from './types'
+import { LayoutProps } from '../types'
 
 function Layout({ 
     header, 
