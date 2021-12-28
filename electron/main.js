@@ -8,7 +8,9 @@ function createWindow () {
     height: 600,
     webPreferences: {
       nodeIntegration: true
-    }
+    },
+    titleBarStyle: 'hidden',
+    titleBarOverlay: true
   })
 
   const startUrl = process.env.ELECTRON_START_URL || url.format({
