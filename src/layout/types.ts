@@ -15,6 +15,7 @@ type Zone = {
   minHeight?: string
   justifyContent?: JustifyContent
   backgroundColor?: string
+  boxShadow?: string
 }
 
 export type HeaderProps = Zone & {

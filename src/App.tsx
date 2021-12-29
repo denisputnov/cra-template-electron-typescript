@@ -1,10 +1,10 @@
 import React from 'react';
-import Layout, { Content, Footer, Header } from './layout';
+import Layout from './layout';
 
 const App = () =>  {
-  const header = <Header children={"some title"}/>
-  const content = <Content >Content</Content>
-  const footer = <Footer />
+  const header = <Layout.Header children={"some title"}/>
+  const content = <Layout.Content>Content</Layout.Content>
+  const footer = <Layout.Footer />
   return (
     <Layout
       header={header}

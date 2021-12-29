@@ -8,7 +8,7 @@ function Layout({
     footer, 
     headerless, 
     footerless
-    }: LayoutProps) {
+  }: LayoutProps) {
     
   const displayHeader = (() => {
     if (headerless) return null
